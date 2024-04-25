@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+/* Your custom CSS styles */
+/* Your custom CSS styles */
+.navbar-options {
+    display: none;
+}
+.nav-keys {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.nav-key {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.nav-key.active {
+    background-color: #fff;
+}
+.section-video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.section-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.section-welcome {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.welcome-content {
+    opacity: 0;
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+section {
+    padding: 80px 0;
+}
+
+.lead, h2 {
+    color: #333; /* Changed text color for better visibility */
+}
+.lead{
+    color:white
+}
+.section-primary {
+    background-color: #fff;
+    color: #333;
+}
+
+.section-video {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.section-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Added background color with transparency */
+}
+
+/* About section with different background image */
+#about {
+    background-image: url("file:///C:/Users/bharg/OneDrive/Pictures/back.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Skills section with different background image */
+#skills {
+    background-image: url("C:/Users/bharg/OneDrive/background image.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+ 
+
+/* Projects section with different background image */
+#projects {
+    background-image: url("C:/Users/bharg/OneDrive/backgroundimage-3.jpg"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Timeline section with different background image */
+#timelinesection {
+    background-image: url("https://via.placeholder.com/150"); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+.mouse-icon {
+    display: none; /* Hide the mouse icon */
+}
+
+.section-heading h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.section-heading p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.social-footer a {
+    margin-right: 20px;
+    color: #fff;
+}
+
+.social-footer a:hover {
+    color: #ccc;
+}
+
+.skills-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills-list li {
+    margin-bottom: 15px;
+}
+
+.skills-list li i {
+    margin-right: 10px;
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+.video-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to enhance readability */
+}
+
+.resume-content {
+    text-align: center;
+    color: #fff;
+    z-index: 1; /* Ensure the content is above the video */
+}
+
+.resume-content h1 {
+    margin-top: 100px; /* Adjust as needed */
+}
+
+.resume-content p {
+    margin-bottom: 20px; /* Adjust as needed */
+}
+.social-icon {
+    font-size: 30px; /* Adjust the size as needed */
+    margin: 0 10px; /* Add margin between icons if desired */
+}
